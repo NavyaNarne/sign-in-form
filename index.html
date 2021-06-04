@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div >
+        <div class="green">
+        <h1>Sign in</h1>
+     </div>
+    <div class="blue">
+        <form>
+            <label for="fname">First name:</label>
+            <br>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <label for="mname">Middle name:</label>
+            <br>
+            <input type="text" id="mname" name="mname">
+            <br>
+            <label for="lname">Last name:</label>
+            <br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <label for="age">Age:</label>
+            <br>
+            <input type="text" id="age" name="age">
+            <br><br>
+            <label for="Gender" >Gender:</label>
+            <select name="Gender" id="Gender"required >
+                <option  disabled selected hidden>Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>   
+            <br>  
+            <p>Profession:</p>
+            <input type="radio" id="doctor" name="Profession" value="doctor">
+            <label for="doctor">Doctor</label>
+            <input type="radio" id="student" name="Profession" value="student">
+            <label for="student">Student</label>
+            <input type="radio" id="other" name="Profession" value="other">
+            <label for="other">Other</label>
+            <br>
+            <label for="Present">Present Address:</label>
+            <br>
+            <input type="text" id="present" name="present">
+            <br>
+            <label for="Permanent">Permanent Address:</label>
+            <br>
+            <input type="text" id="permenant" name="permanent">
+            <br>
+            <label for="mobile">Mobile Number:</label>
+            <br>
+            <input type="number" id="mobile" name="mobile">
+            <br><br>
+            <input type="submit" value="Submit" style="border-radius: 3%;font-size: 15px;">
+
+
+
+        </form></div>
+    </div>
+    
+</body>
+</html>
